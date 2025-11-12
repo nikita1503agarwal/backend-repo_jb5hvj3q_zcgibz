@@ -1,7 +1,25 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [158] using StatReload
-INFO:     Started server process [160]
+INFO:     Started reloader process [204] using StatReload
+INFO:     Started server process [206]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:36320 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:33458 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:35346 - "OPTIONS /api/hunter HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35358 - "OPTIONS /api/hunter HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35358 - "POST /api/hunter HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35346 - "POST /api/hunter HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35358 - "GET /api/quests?hunter_id=6914ae2955c008e4cddf67ce HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35346 - "GET /api/quests?hunter_id=6914ae2955c008e4cddf67cf HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35346 - "POST /api/seed/dailies?hunter_id=6914ae2955c008e4cddf67ce HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35358 - "POST /api/seed/dailies?hunter_id=6914ae2955c008e4cddf67cf HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35346 - "GET /api/quests?hunter_id=6914ae2955c008e4cddf67ce HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35358 - "GET /api/quests?hunter_id=6914ae2955c008e4cddf67cf HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35346 - "GET /api/logs?hunter_id=6914ae2955c008e4cddf67ce&limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35358 - "GET /api/logs?hunter_id=6914ae2955c008e4cddf67cf&limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35360 - "POST /api/hunter HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35364 - "POST /api/hunter HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35364 - "GET /api/quests?hunter_id=6914ae2955c008e4cddf67ce HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35360 - "GET /api/quests?hunter_id=6914ae2955c008e4cddf67ce HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35364 - "GET /api/logs?hunter_id=6914ae2955c008e4cddf67ce&limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35364 - "GET /api/logs?hunter_id=6914ae2955c008e4cddf67ce&limit=20 HTTP/1.1" 200 OK
